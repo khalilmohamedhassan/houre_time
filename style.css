@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px ;
+}
+.content .card{
+    padding: 50px;
+    margin: 20px;
+    background-color: rgb(142, 179, 179);
+    border-radius: 5px;
+    width: 300px;
+    position: relative;
+
+}
+.content  .card h2{
+    color: black;
+    transform: rotateY(43deg);
+    position: absolute;
+    top: -24px;
+    left: 38%;
+    /* font-size:; */
+}
+.content .card p{
+    font-size: 50px;
+    text-align: center;
+}
